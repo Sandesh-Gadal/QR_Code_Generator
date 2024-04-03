@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+
+}
+
+body {
+  display: grid;
+  justify-content: center;
+
+  gap: 1.5rem;
+  background-color: #313638;
+  color: aliceblue;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+
+#msg{
+  font-weight: 500;
+color:greenyellow;
+}
+p {
+  text-align: center;
+}
+#inputbox {
+  width: 100%;
+  padding: 4px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-style: none;
+  border: none;
+}
+#GenerateBtn {
+  height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px;
+}
+#GenerateBtn:hover {
+  cursor: pointer;
+  background-color:#c3bdba;
+}
+
+
+
+git init
+git add .
+git commit -m "QR generator"
+git branch -M main
+git remote add origin https://github.com/Sandesh-Gadal/QR_Code_Generator.git
+git push -u origin main
