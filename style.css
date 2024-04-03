@@ -52,9 +52,3 @@ p {
 
 
 
-git init
-git add .
-git commit -m "QR generator"
-git branch -M main
-git remote add origin https://github.com/Sandesh-Gadal/QR_Code_Generator.git
-git push -u origin main

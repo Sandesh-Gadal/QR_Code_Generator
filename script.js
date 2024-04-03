@@ -26,3 +26,10 @@ inputBox.addEventListener("input", function() {
   msg.innerHTML=""
   qrCodeImg.hidden=true
 });
+
+inputBox.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault(); 
+    generateQRCode();
+  }
+});
