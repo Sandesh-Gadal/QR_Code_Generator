@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Generator</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,12 +15,9 @@
         </header>
     </div>
     <div class="container">
-        <img
-        src=""
-        alt="Qr code"
-        id="qrcodeimg"
-        />
+        <img src="" alt="Qr code" id="qrcodeimg" />
         <label id="msg"></label>
+        <button class="downloadBtn"><i class="fa fa-download"></i> Download</button>
         <input type="text" id="inputbox" placeholder="Please enter text or paste the link below " />
     
         <button id="GenerateBtn">Click to Generate</button>
